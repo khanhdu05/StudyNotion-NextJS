@@ -13,7 +13,7 @@ enum Gender {
   OTHERS = "Others",
 }
 
-@Entity()
+@Entity("profiles")
 export class Profile {
   @PrimaryGeneratedColumn("uuid")
   id: string;

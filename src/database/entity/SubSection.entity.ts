@@ -8,7 +8,7 @@ import {
 import { Section } from "./Section.entity";
 import { CourseProgress } from "./CourseProgress.entity";
 
-@Entity()
+@Entity("sub_sections")
 export class SubSection {
   @PrimaryGeneratedColumn("uuid")
   id: string;

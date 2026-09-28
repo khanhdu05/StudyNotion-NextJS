@@ -8,7 +8,7 @@ import {
 import { User } from "./User.entity";
 import { Course } from "./Course.entity";
 
-@Entity()
+@Entity("ratings_and_reviews")
 export class RatingsAndReviews {
   @PrimaryGeneratedColumn("uuid")
   id: string;

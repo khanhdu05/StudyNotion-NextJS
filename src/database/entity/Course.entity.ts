@@ -18,7 +18,7 @@ enum Status {
   PUBLIC = "Public",
 }
 
-@Entity()
+@Entity("courses")
 export class Course {
   @PrimaryGeneratedColumn("uuid")
   id: string;
